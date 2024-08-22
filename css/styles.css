@@ -1,0 +1,283 @@
+
+body {
+    margin: 0;
+    padding: 0;   
+}
+
+
+header {
+    background-color: #141414;
+    border-bottom: 0.5px solid rgb(255, 255, 255);
+}
+
+nav .menu-de-navegacao {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "New Rocker", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav .menu-de-navegacao li {
+    margin: 0 20px;
+}
+
+nav .menu-de-navegacao li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+nav .menu-de-navegacao li a:hover {
+    background-color: #d4d2d24d;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.index {
+    min-height: calc(100vh - 60px); /* Use calc para subtrair a altura do header e footer */
+    background-image: url('../images/234227.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* Estilos para o rodapé */
+.index-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 10; /* Assegura que o rodapé fique acima do conteúdo */
+}
+
+footer{
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: "New Rocker", system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    border-top: 0.5px solid rgb(255, 255, 255);
+}
+footer p {
+    margin: 0;
+}
+
+/* SOBRE */
+
+.sobre{
+    background-color: rgb(22, 19, 19);
+}
+
+.sobre-texto1 p{
+    font-family: "Lucida Bright";
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: justify;
+    padding: 30px;
+    margin: 0 auto;
+    width: 50%;         
+    line-height: 35px; 
+}
+
+.img-sobre{
+    display: flex;
+    justify-content: center; /* horizontalmente */
+    align-items: center;     /* verticalmente */
+    height: 64vh;      
+    border-radius: 15px;
+}
+
+.sobre-texto1 h1{
+    font-family: "New Rocker";
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    width: 50%;          
+}
+
+.sobre-texto1 h2{
+    font-family: "New Rocker";
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    width: 50%;  
+}
+
+/* MEMBROS */
+
+.conteudo-membros{
+   background-color: #111111;
+}
+.img-membros-quadrado{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px; /* Isto vai servir para aumentar o espacamento entre os cards, ficou bem mais claro */
+    justify-content: center;
+    padding: 20px;
+}
+
+.imagem-conteudo{
+    width: 50%; /* Faz o card ocupar 50% da largura da tela, isto serviu para mim conseguir colocar 1 centralizado por fileira */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.imagem-conteudo img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.imagem-conteudo h1{
+    font-family: "New Rocker";
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    width: 50%;    
+}
+
+/* DISCOGRAFIA */
+
+.conteudo-discografia{
+    background-color: #111111;
+ }
+ .img-discografia-quadrado{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 85px; /* Isto vai servir para aumentar o espacamento entre os cards, ficou bem mais claro */
+     justify-content: center;
+     padding: 30px;
+ }
+ 
+ .imagem-discografia{
+     width: 20%; /* Faz o card ocupar 50% da largura da tela, isto serviu para mim conseguir colocar 1 centralizado por fileira */
+     background-color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 0 0 10px #ffffff;
+ }
+ 
+ .imagem-discografia img{
+     width: 100%;
+     height: auto;
+     border-radius: 5px;
+ }
+ 
+ .imagem-discografia h1{
+     font-family: "New Rocker";
+     font-size: 35px;
+     font-weight: 400;
+     color: rgb(10, 10, 10);
+     text-align: center;
+     padding: 30px;
+     margin: 0 auto;
+     width: 70%;    
+ }
+
+/* INFLUENCIA E INSPIRACOES */
+
+ .influencias-inspiracoes-conteudo{
+    background-color: #111111;
+ }
+ .img-influencias-inspiracoes-quadrado{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 75px; /* Isto vai servir para aumentar o espacamento entre os cards, ficou bem mais claro */
+     justify-content: center;
+     padding: 30px;
+ }
+ 
+ .imagem-influencias-inspiracoes{
+     width: 30%; /* Faz o card ocupar 50% da largura da tela, isto serviu para mim conseguir colocar 1 centralizado por fileira */
+     background-color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 0 0 10px #696969;
+ }
+ 
+ .imagem-influencias-inspiracoes img{
+     width: 100%;
+     height: auto;
+     border-radius: 5px;
+ }
+ 
+ .imagem-influencias-inspiracoes h1{
+     font-family: "New Rocker";
+     font-size: 35px;
+     font-weight: 400;
+     color: rgb(10, 10, 10);
+     text-align: center;
+     padding: 20px;
+     margin: 0 auto;
+     width: 70%;    
+ }
+
+ .imagem-influencias-inspiracoes p{
+    font-family: "Lucida Bright";
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(7, 7, 7);
+    text-align: justify;
+    padding: 30px;
+    margin: 0 auto;
+    width: 75%;         
+    line-height: 25px; 
+}
+
+
+/* VIDEOCLIPE */
+
+
+.conteudo-videoclipes-performances{
+    background-color: #111111;
+ }
+ .videoclipes-performances-quadrado{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 100px; /* Isto vai servir para aumentar o espacamento entre os cards, ficou bem mais claro */
+     justify-content: center;
+     padding: 30px;
+ }
+ 
+ .video-conteudo{
+     width: 40%; /* Faz o card ocupar 50% da largura da tela, isto serviu para mim conseguir colocar 1 centralizado por fileira */
+     background-color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 0 0 10px #696969;
+ }
+ 
+ .video-conteudo iframe{
+     width: 100%;
+     border-radius: 5px;
+ }
+ 
+ .video-conteudo h1{
+     font-family: "New Rocker";
+     font-size: 35px;
+     font-weight: 400;
+     color: rgb(10, 10, 10);
+     text-align: center;
+     padding: 20px;
+     margin: 0 auto;
+     width: 70%;    
+ }
