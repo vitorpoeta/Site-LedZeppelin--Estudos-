@@ -42,4 +42,3 @@ https://site-led-zeppelin-estudos.vercel.app/
 
 Projeto feito para estudos
 
-https://site-led-zeppelin-estudos.vercel.app/ 
