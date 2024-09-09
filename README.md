@@ -2,6 +2,8 @@
 
 Este é um site dedicado aos fãs da banda Led Zeppelin, criado utilizando HTML e CSS. O site oferece uma visão abrangente sobre a banda, incluindo sua história, membros, discografia, influências, inspirações e performances.
 
+![Print do Projeto](images/ledzeppelin-print.png)
+
 ## Estrutura do Projeto
 
 O site é dividido nas seguintes seções:
